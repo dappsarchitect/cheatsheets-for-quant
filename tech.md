@@ -11,7 +11,7 @@
 ## Markdown
 | Effects | Syntaxes |
 |--- |--- |
-| Rendering Syntax Symbols | \`**bold**\` or `\*\*bold\*\*` |
+| Rendering Syntax Symbols | \`\*\*bold\*\*\` or `\*\*bold\*\*` |
 | Heading | # H1<br>## H2<br>### H3 |
 | Bold | `**bold**` |
 | Italic | `*italic*` |
