@@ -18,4 +18,5 @@
 | Blockquote | > blockquote |
 | Ordered List | 1. First<br>2. Second<br>3. Third |
 | Unordered List | - First<br>- Second<br>- Third |
-| Code | \`code\` |
+| Code (inline) | \`code\` |
+| Code (block) | \`\`\`<br>a = 1<br>\`\`\` |
