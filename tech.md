@@ -11,6 +11,7 @@
 ## tmux
 | Commands | Effects / Notes |
 |--- |--- |
+| Ctrl B | Starts talking to tmux with commands that follow |
 | tmux new -s buidl | Opens a new tmux session named buidl |
 | tmux attach | ? |
 | tmux attach -t buidl | ? |
