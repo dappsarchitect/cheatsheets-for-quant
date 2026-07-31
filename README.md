@@ -7,7 +7,7 @@ This is a repository saving my various cheatsheets, covering commands used in te
 - tmux commands
 - Git commands
 - Vim shortcuts
-- Markdown symbols
+- Markdown syntax
 
 **Topics Contained in math.md**
 - Differentiation

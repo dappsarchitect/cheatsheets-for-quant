@@ -9,3 +9,6 @@
 ## Vim
 
 ## Markdown
+| Effects | Syntaxes |
+|--- |--- |
+| Heading | # H1; ## H2; ### H3 |
