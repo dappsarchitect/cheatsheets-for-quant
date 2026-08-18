@@ -1,27 +1,25 @@
 # Notes for Finance 
 
-1. When we say we want to "price the option", is this price nothing but just the premium that the buyer pays the seller when they enter into the option contract?
+## When we say we want to "price the option", is this price nothing but just the premium that the buyer pays the seller when they enter into the option contract?
 
-Answer: Yes, the price is the premium. Also...
+Yes, the price is the premium. Also...
 
-2. What are the different styles of options?
+## What are the different styles of options?
 
-Answer: Quick answer: European options, American options, Bermudan options and Asian options.
+Quick answer: European options, American options, Bermudan options and Asian options.
 
 - European options: can only be exercised on the exact day of expiration $T$.
 - American options: can be exercised at any time on or before the expiration date $T$. This feature adds significant value (especially for options on dividend-paying stocks) and makes them harder to price mathematically.
 - Bermudan options: can be exercised only on specific, pre-determined dates prior to expiration, e.g., the first day of every month.
 - Asian options: the payoff depends on the average price of the underlying asset over a specified period, rather than the price on the exact expiration date.
 
-3. What are call options and put options?
+## What are call options and put options?
 
-Answer: 
+- Call option: Gives the holder the right (but not the obligation) to **buy** the underlying asset at a fixed price (strike price $K$) on or before expiration $T$; becomes profit if the asset price **goes above** strike price $K$.
 
-Call option: Gives the holder the right (but not the obligation) to **buy** the underlying asset at a fixed price (strike price $K$) on or before expiration $T$; becomes profit if the asset price **goes above** strike price $K$.
+- Put option: Gives the holder the right (but not the obligation) to **sell** the underlying asset at a fixed price (strike price $K$) on or before expiration $T$; becomes profit if the asset price **drops below** strike price $K$.
 
-Put option: Gives the holder the right (but not the obligation) to **sell** the underlying asset at a fixed price (strike price $K$) on or before expiration $T$; becomes profit if the asset price **drops below** strike price $K$.
-
-4. Definition of Volatility $\sigma$.
+## Definition of Volatility $\sigma$
 
 $$d(ln S_t) = (\mu-\frac{1}{2}\sigma^2)dt+\sigma dW_t$$
 
