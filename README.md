@@ -12,3 +12,6 @@ This is a repository saving my various cheatsheets, covering commands used in te
 **Topics Contained in math.md**
 - Differentiation
 - Integration
+
+**Topics Contained in finance.md**
+- Options
