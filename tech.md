@@ -8,7 +8,7 @@
 | Ctrl Y | Brings back erased thing |
 | top | Shows system processes |
 | sudo apt update | Updates the list of available packages/versions from remote repositories |
-| sudo apt upgrade -y | Upgrades all installed packages (applications, libraries, tools, and dependencies |
+| sudo apt upgrade -y | Upgrades all installed packages (applications, libraries, tools, and dependencies) |
 | sudo apt install -y <package> | Installs package named <package> |
 
 ## tmux
