@@ -7,20 +7,23 @@
 | Ctrl W | Erases the last word |
 | Ctrl Y | Brings back erased thing |
 | top | Shows system processes |
+| sudo apt update | Updates the list of available packages/versions from remote repositories |
+| sudo apt upgrade -y | Upgrades all installed packages (applications, libraries, tools, and dependencies |
+| sudo apt install -y <package> | Installs package named <package> |
 
 ## tmux
 | Commands | Effects / Notes |
 |--- |--- |
 | Ctrl B | Starts talking to tmux with commands that follow |
 | tmux new -s buidl | Opens a new tmux session named buidl |
-| tmux attach | ? |
-| tmux attach -t buidl | ? |
-| tmux ls | ? |
+| tmux attach | Attaches (i.e. reconnects) to the most recently used existing session |
+| tmux attach -t buidl | Attaches to a specific target session named buidl |
+| tmux ls | Lists all active sessions currently managed by tmux |
 
 ## Git
 | Commands | Effects / Notes |
 |--- |--- |
-| git branch -M main | Renames default branch (from master) to main |
+| git branch -M main | Renames default branch (from master) to main; -M flag stands for "force move", i.e. force rename |
 | git remote add origin <GitHub link> | Links the local repo to GitHub link |
 | git add <filename> | Stages the file |
 | git commit -am "message" | (Adds and) commits the staged file(s) with commit message |
